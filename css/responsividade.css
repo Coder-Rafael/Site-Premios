@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px){
+    nav a, #btn-prof{
+        display: none;
+    }
+    #menu-resp {
+        display: inline;
+    } 
+}
+
+@media screen and (max-width: 1000px){
+    .main-iten{
+        display: none;
+    }
+
+    .call-to-act {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 667px){
+    .call-to-act {
+        display: none;
+    }
+
+    #product-area{
+        justify-content: center;
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1250px){
+    .container-cadastro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right {
+        width: 90%;
+    }
+    .left {
+        display: none;
+    }
+}
